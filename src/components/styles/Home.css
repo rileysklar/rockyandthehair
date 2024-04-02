@@ -25,8 +25,20 @@ h2 {
   background-size: cover;
 }
 
+.band-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 48px;
+  }
+
+  .band-list {
+    gap: 0px;
   }
 }
