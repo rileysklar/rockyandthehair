@@ -13,8 +13,8 @@ img {
 .ticket {
   width: 400px;
   height: auto;
-  background-color: white;
-  margin: 25px auto;
+  background-color: rgb(255, 255, 255);
+  margin: 25px 0;
   position: relative;
   z-index: -1;
 }
@@ -73,8 +73,9 @@ img {
 }
 
 .cinema {
-  color: #aaa;
-  font-size: 22px;
+  color: #f2650d;
+  font-size: 24px;
+  margin-bottom: 8px;
 }
 
 .movie-title {
@@ -133,10 +134,11 @@ table td {
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .ticket {
     width: 90%; /* Makes the ticket take up more of the screen, adjusting for smaller widths */
     border-radius: 20px;
+    box-shadow: #6f6f6f 0px 0px 10px; /* Adds a shadow to the ticket */
   }
 
   .movie-title {

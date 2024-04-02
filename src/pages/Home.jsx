@@ -9,8 +9,11 @@ export default function Home() {
         <h1>{document.title}</h1>
         <h2>Booking</h2>
       </div>
-      <div className="band-list">
-        <MovieTicket />
+      <div className="section">
+        <h2 className="sub-title">Artists we have worked with</h2>
+        <div className="band-list">
+          <MovieTicket />
+        </div>
       </div>
     </>
   );

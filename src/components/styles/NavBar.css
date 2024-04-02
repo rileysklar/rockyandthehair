@@ -7,9 +7,10 @@ nav {
   position: fixed;
   width: calc(100vw - 24px);
   top: 0px;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   background: rgba(255, 255, 255, 0.05);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.21);
 }
 
 a {
@@ -34,6 +35,9 @@ nav img {
   display: flex;
   align-items: center;
   gap: 6px;
+  font-size: 24px;
+  text-shadow: #ffffff 0px 0px 8px;
+  font-weight: bold;
 }
 
 .hamburger {
@@ -55,6 +59,7 @@ nav img {
   z-index: 1;
   width: 300px;
   border-radius: 0 0 20px 20px;
+  height: calc(100vh - 78px);
 }
 
 .dropdown ul {
@@ -87,6 +92,10 @@ nav img {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+  }
+
+  .logo {
+    font-size: 18px;
   }
 
   .dropdown {
