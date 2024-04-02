@@ -1,0 +1,32 @@
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #fffd47;
+  font-size: clamp(1rem, 8rem, 10rem);
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Special Elite", sans-serif;
+  color: #fffd47;
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/rocky.webp");
+  background-position: center;
+  height: 80vh;
+  padding: 5%;
+  padding-top: 30vh;
+  margin-top: -78px;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+}
