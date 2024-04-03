@@ -1,10 +1,10 @@
 import styles from "./styles/MovieTicket.module.css";
-import rickshawImage from "../public/rickshaw.jpg";
-import dieImage from "../public/die.jpg";
-import madamImage from "../public/madam.jpg";
-import stepImage from "../public/step.jpg";
-import jawsImage from "../public/jaws.jpg";
-import aubreyImage from "../public/aubrey.jpg";
+import rickshawImage from "./../assets/rickshaw.jpg";
+import dieImage from "./../assets/die.jpg";
+import madamImage from "./../assets/madam.jpg";
+import stepImage from "./../assets/step.jpg";
+import jawsImage from "./../assets/jaws.jpg";
+import aubreyImage from "./../assets/aubrey.jpg";
 
 const artists = [
   {
