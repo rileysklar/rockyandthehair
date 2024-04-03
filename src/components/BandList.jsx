@@ -1,34 +1,41 @@
 import styles from "./styles/MovieTicket.module.css";
+import rickshawImage from "../public/rickshaw.jpg";
+import dieImage from "../public/die.jpg";
+import madamImage from "../public/madam.jpg";
+import stepImage from "../public/step.jpg";
+import jawsImage from "../public/jaws.jpg";
+import aubreyImage from "../public/aubrey.jpg";
+
 const artists = [
   {
     name: "Rickshaw Billies Burger Patrol",
     website: "https://rickshawbilliesburgerpatrol.com/",
-    image_path: "./public/rickshaw.jpg",
+    image_path: rickshawImage,
   },
   {
     name: "Die Spitz",
     website: "https://diespitz.bandcamp.com/",
-    image_path: "./public/die.jpg",
+    image_path: dieImage,
   },
   {
     name: "Madam Radar",
     website: "https://www.madamradar.com/",
-    image_path: "./public/madam.jpg",
+    image_path: madamImage,
   },
   {
     name: "StepMom (OKC)",
     website: "https://www.stepmomband.com/",
-    image_path: "./public/step.jpg",
+    image_path: stepImage,
   },
   {
     name: "The Jaws of Brooklyn (SEA)",
     website: "https://jawsofbrooklyn.com/",
-    image_path: "./public/jaws.jpg",
+    image_path: jawsImage,
   },
   {
     name: "Aubrey Haddard (NYC)",
     website: "https://www.aubreyhaddard.com/",
-    image_path: "./public/aubrey.jpg",
+    image_path: aubreyImage,
   },
 ];
 
