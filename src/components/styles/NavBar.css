@@ -9,8 +9,8 @@ nav {
   top: 0px;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: solid 2px rgba(255, 255, 255, 0.21);
+  background: rgba(28, 28, 28, 0.824);
+  border-bottom: solid 2px rgba(247, 243, 31, 0.6);
 }
 
 a {
@@ -36,7 +36,7 @@ nav img {
   align-items: center;
   gap: 6px;
   font-size: 24px;
-  text-shadow: #ffffff 0px 0px 8px;
+  color: #fffd47;
   font-weight: bold;
 }
 
@@ -45,21 +45,35 @@ nav img {
   border: none;
   font-size: 32px;
   cursor: pointer;
+  color: #fffd47;
+  font-weight: 900;
 }
 
 .dropdown {
   position: absolute;
-  top: 100%; /* Adjust based on your nav height */
+  top: calc(100% + 2px); /* Adjust based on your nav height */
   right: 0;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  background: rgb(31, 31, 31);
+  background: rgba(31, 31, 31, 0.95);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   padding: 32px 0;
   z-index: 1;
   width: 300px;
   border-radius: 0 0 20px 20px;
   height: calc(100vh - 78px);
+  animation: slideInRight 0.5s forwards; /* Add this line */
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .dropdown ul {
@@ -86,7 +100,7 @@ nav img {
 }
 
 .dropdown ul li a:hover {
-  background-color: #ddd;
+  color: #fffd47;
 }
 
 @media (max-width: 768px) {
@@ -100,5 +114,15 @@ nav img {
 
   .dropdown {
     width: 100%; /* Optional: Makes the dropdown full width on mobile */
+    animation: slideInDown 0.3s forwards;
+  }
+
+  @keyframes slideInDown {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

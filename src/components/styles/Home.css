@@ -49,6 +49,7 @@ h2 {
 .sub-title {
   padding: 24px 24px 6px 24px;
   border-bottom: dashed 8px #fff;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 600px) {

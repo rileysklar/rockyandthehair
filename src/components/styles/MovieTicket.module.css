@@ -138,7 +138,7 @@ table td {
   .ticket {
     width: 90%; /* Makes the ticket take up more of the screen, adjusting for smaller widths */
     border-radius: 20px;
-    box-shadow: #6f6f6f 0px 0px 10px; /* Adds a shadow to the ticket */
+    box-shadow: #a9a9a962 0px 0px 20px; /* Adds a shadow to the ticket */
   }
 
   .movie-title {

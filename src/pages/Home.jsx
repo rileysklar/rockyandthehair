@@ -10,7 +10,7 @@ export default function Home() {
         <h2>Booking</h2>
       </div>
       <div className="section">
-        <h2 className="sub-title">Artists we have worked with</h2>
+        <h2 className="sub-title">Artist Catalog</h2>
         <div className="band-list">
           <MovieTicket />
         </div>

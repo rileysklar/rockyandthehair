@@ -105,28 +105,20 @@ const MovieTicket = () => {
               </table>
               <table className={styles.numbers}>
                 <tr>
-                  <td>9</td>
-                  <td>1</td>
-                  <td>7</td>
-                  <td>3</td>
-                  <td>7</td>
-                  <td>5</td>
-                  <td>4</td>
-                  <td>4</td>
-                  <td>4</td>
-                  <td>5</td>
-                  <td>4</td>
-                  <td>1</td>
-                  <td>4</td>
-                  <td>7</td>
-                  <td>8</td>
-                  <td>7</td>
-                  <td>3</td>
-                  <td>4</td>
-                  <td>1</td>
-                  <td>4</td>
-                  <td>5</td>
-                  <td>2</td>
+                  <td>{hour}</td>
+                  <td>{hour}</td>
+                  <td>{row}</td>
+                  <td>{seat}</td>
+                  <td>{hour}</td>
+                  <td>{row}</td>
+                  <td>{seat}</td>
+                  <td>{seat}</td>
+                  <td>{hour}</td>
+                  <td>{row}</td>
+                  <td>{seat}</td>
+                  <td>{hour}</td>
+                  <td>{row}</td>
+                  <td>{seat}</td>
                 </tr>
               </table>
             </div>
