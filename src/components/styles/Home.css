@@ -12,7 +12,7 @@ h2 {
   margin: 0;
   font-size: 38px;
   text-align: center;
-  text-shadow: #3030305e 0px 0px 10px;
+  text-shadow: #30303029 0px 0px 10px;
 }
 
 .hero {
@@ -21,7 +21,7 @@ h2 {
   align-items: center;
   justify-content: center;
   background-image: url("./../../../public/rocky.webp");
-  background-position: center;
+  background-position: center top;
   height: 80vh;
   padding: 5%;
   margin-top: -78px;
@@ -47,8 +47,8 @@ h2 {
 }
 
 .sub-title {
-  padding: 24px 24px 6px 24px;
-  border-bottom: dashed 8px #fff;
+  padding: 24px 4px 6px 4px;
+  border-bottom: dashed 4px #fff;
   text-transform: uppercase;
 }
 
